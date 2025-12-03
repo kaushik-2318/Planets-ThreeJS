@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div id="preloader" class="fixed inset-0 z-50 flex items-center justify-center bg-black">
+    <div class="text-center">
+      <div class="relative w-32 h-32 mx-auto mb-8">
+        <div class="preloader-orbit"></div>
+        <div class="preloader-planet"></div>
+      </div>
+      <div class="text-white font-['Gilroy'] text-lg mb-2">Loading The Planets</div>
+      <div class="preloader-progress-bar">
+        <div id="preloader-progress" class="preloader-progress-fill"></div>
+      </div>
+      <div id="preloader-percent" class="text-white/50 font-['Gilroy'] text-sm mt-2">0%</div>
+    </div>
+  </div>
+
+  <div class="w-full h-screen overflow-hidden">
+    <div class="absolute top-0 left-0 z-[2] w-full h-screen text-white font-['Helvetica Now Display']">
+      <div class="absolute top-[10%] left-1/2 -translate-x-1/2 text-center font-['Bellina']">
+        <div class="w-full h-[5em] md:h-[7.5em] overflow-hidden">
+          <h1 class="text-7xl md:text-9xl font-light tracking-tighter h-[100%] heading">Earth</h1>
+          <h1 class="text-7xl md:text-9xl font-light tracking-tighter h-[100%] heading">Venus</h1>
+          <h1 class="text-7xl md:text-9xl font-light tracking-tighter h-[100%] heading">Volcanic</h1>
+          <h1 class="text-7xl md:text-9xl font-light tracking-tighter h-[100%] heading">Csilla</h1>
+        </div>
+        <div class="relative mt-1 w-full overflow-hidden h-[1.5em]">
+          <p class="desc text-sm font-['Gilroy'] leading-relaxed h-[100%] ">
+            Earth — our home planet, rich with life and a perfect balance of oceans, atmosphere, and biodiversity.
+          </p>
+          <p class="desc text-sm font-['Gilroy'] leading-relaxed h-[100%]">
+            Venus — shrouded in thick clouds, it’s the hottest planet with a crushing atmosphere and mysterious surface.
+          </p>
+          <p class="desc text-sm font-['Gilroy'] leading-relaxed h-[100%]">
+            Volcanic — a fiery world of molten landscapes and erupting energy, glowing with raw cosmic heat.
+          </p>
+          <p class="desc text-sm font-['Gilroy'] leading-relaxed h-[100%]">
+            Csilla — a frozen crystal world, gleaming under distant stars with icy plains and hidden secrets.
+          </p>
+        </div>
+        <div class="w-full h-px bg-gradient-to-r from-transparent via-white to-transparent mt-1"></div>
+      </div>
+      <div class="absolute bottom-2 font-['Gilroy'] left-1/2 -translate-x-1/2 z-[2] text-white/50 ">Made By <a
+          href="https://www.kaushikverma.me/" class="underline cursor-pointer" target="_blank">Kaushik</a> with ❤️</div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
