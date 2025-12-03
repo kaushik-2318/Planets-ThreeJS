@@ -240,7 +240,7 @@ This project is open source and available for learning and portfolio purposes.
 
 Full-stack developer passionate about creating immersive web experiences.
 
-- Portfolio: [kaushikverma.me](https://www.kaushikverma.com/)
+- Portfolio: [kaushikverma.com](https://www.kaushikverma.com/)
 - GitHub: [@kaushikverma](https://github.com/kaushikverma)
 
 ---
