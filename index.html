@@ -10,6 +10,21 @@
 </head>
 
 <body>
+  <!-- Preloader -->
+  <div id="preloader" class="fixed inset-0 z-50 flex items-center justify-center bg-black">
+    <div class="text-center">
+      <div class="relative w-32 h-32 mx-auto mb-8">
+        <div class="preloader-orbit"></div>
+        <div class="preloader-planet"></div>
+      </div>
+      <div class="text-white font-['Gilroy'] text-lg mb-2">Loading The Planets</div>
+      <div class="preloader-progress-bar">
+        <div id="preloader-progress" class="preloader-progress-fill"></div>
+      </div>
+      <div id="preloader-percent" class="text-white/50 font-['Gilroy'] text-sm mt-2">0%</div>
+    </div>
+  </div>
+
   <div class="w-full h-screen overflow-hidden">
     <div class="absolute top-0 left-0 z-[2] w-full h-screen text-white font-['Helvetica Now Display']">
       <div class="absolute top-[10%] left-1/2 -translate-x-1/2 text-center font-['Bellina']">

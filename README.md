@@ -97,7 +97,7 @@ the-planets/
 
 ## Screenshots
 
-![The Planets – 3D Gallery](./assets/screenshots/the-planets.png)
+![The Planets – 3D Gallery](./public/screenshot.png)
 
 *Interactive 3D planet gallery with smooth scroll-based navigation*
 
