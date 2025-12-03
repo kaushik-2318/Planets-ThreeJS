@@ -192,11 +192,10 @@ npm run preview
 2. Update the `textures` array in `main.js`:
    ```javascript
    const textures = [
-     './csilla/color.png',
-     './earth/map.jpg',
-     './venus/map.jpg',
-     './volcanic/color.png',
-     './newplanet/texture.jpg'
+     './public/csilla/color.png',
+     './public/earth/map.jpg',
+     './public/venus/map.jpg',
+     './public/volcanic/color.png',
    ];
    ```
 3. Add corresponding heading and description in `index.html`
@@ -241,11 +240,10 @@ This project is open source and available for learning and portfolio purposes.
 Full-stack developer passionate about creating immersive web experiences.
 
 - Portfolio: [kaushikverma.com](https://www.kaushikverma.com/)
-- GitHub: [@kaushikverma](https://github.com/kaushikverma)
+- GitHub: [@kaushikverma](https://github.com/kaushik-2318)
 
 ---
 
 <div align="center">
   <sub>⭐ Star this repository if you found it helpful!</sub>
 </div>
-
